@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#24306a;
+    color:white;
+}
+
+h1{
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.top-section{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    color:black;
+    padding:20px;
+    border-radius:8px;
+    flex:1;
+}
+
+input{
+    width:65%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+button{
+    padding:8px 15px;
+    background:#ff7a30;
+    border:none;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+.history-btn{
+    margin:5px;
+}
+
+.weather-row{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid #ddd;
+    padding:6px 0;
+}
+
+.console-section{
+    margin-top:20px;
+    background:white;
+    color:black;
+    padding:15px;
+    border-radius:8px;
+}
+
+#consoleLog{
+    background:#1e2458;
+    color:white;
+    padding:10px;
+    border-radius:6px;
+    font-family:monospace;
+}
